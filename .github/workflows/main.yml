@@ -1,4 +1,4 @@
-```yaml
+
 name: Test GitHub Action
 
 on:
@@ -17,4 +17,4 @@ jobs:
 
       - name: Final Step
         run: echo "Workflow completed"
-```
+
