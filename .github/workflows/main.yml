@@ -1,4 +1,3 @@
-
 name: Test GitHub Action
 
 on:
@@ -12,9 +11,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 23f2000029@ds.study.iitm.ac.in
+      - name: "23f2000029@ds.study.iitm.ac.in"
         run: echo "Hello, world!"
 
       - name: Final Step
         run: echo "Workflow completed"
-
